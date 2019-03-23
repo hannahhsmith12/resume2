@@ -162,7 +162,7 @@ not set. Please fix this.}
       \fontsize{14pt}{24pt}\color{header}%
       \thinfont \@jobdescription%
     };
-    \node [anchor=north, below=0.3cm] at (title.south) {%
+    \node [anchor=north] at (title.south) {%
       \hspace{-1.1cm}\small%\center\noindent%
       \@contactemail \sep%
       \@contactaddressone,\. \@contactaddresstwo \sep%
