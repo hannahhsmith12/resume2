@@ -112,10 +112,10 @@ not set. Please fix this.}
 }
 \newcommand*{\@contactphone}{\texttt{\string\contactphone} currently
 not set. Please fix this.}
-\newcommand*{\github}[1]{\gdef\@github{#1}%
-}
-\newcommand*{\@github}{\texttt{\string\github} currently
-not set. Please fix this.}
+% \newcommand*{\github}[1]{\gdef\@github{#1}%
+% }
+% \newcommand*{\@github}{\texttt{\string\github} currently
+% not set. Please fix this.}
 
 \newcommand{\contactheader}{%
   \begin{tikzpicture}[remember picture,overlay]
@@ -130,11 +130,11 @@ not set. Please fix this.}
     };
     \node [anchor=south west, align=left, inner ysep=0.5cm, xshift=0.95in] (email-phone) at (box.south west){%
       \color{header}%
+      \thinfont \@contactphone\\%
+      \color{header}%
       \thinfont \@contactemail\\%
-      \color{header}%
-      \thinfont \@github\\%
-      \color{header}%
-      \thinfont \@contactphone%
+      % \color{header}%
+      % \thinfont \@github\\%
     };
     \node [anchor=south east, align=right, inner ysep=0.5cm, xshift=-0.95in] (address) at (box.south east){%
       \color{header}%
