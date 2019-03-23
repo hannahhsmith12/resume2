@@ -149,7 +149,7 @@ not set. Please fix this.}
   %\vspace{-2\parskip}
 }
 
-\def\sep{\quad\ddagger\quad}
+\def\sep{\quad|\quad}
 
 \newcommand{\linecontactheader}{%
   \begin{tikzpicture}[remember picture,overlay]
