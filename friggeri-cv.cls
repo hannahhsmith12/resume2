@@ -6,7 +6,7 @@
   \PassOptionsToClass{\CurrentOption}{article}%
 }
 \ProcessOptions\relax
-\LoadClass[11pt]{article}
+\LoadClass[12pt]{article}
 
 
 %%%%%%%%%%
@@ -146,7 +146,7 @@ not set. Please fix this.}
     };
   \end{tikzpicture}
   \vspace{2cm}
-  \vspace{-2\parskip}
+  %\vspace{-2\parskip}
 }
 
 \def\sep{\quad\ddagger\quad}
@@ -170,7 +170,7 @@ not set. Please fix this.}
     };
   \end{tikzpicture}
   \vspace{2cm}
-  \vspace{-2\parskip}
+  %\vspace{-2\parskip}
 }
 
 % \newcommand{\bigheader}{%
@@ -196,7 +196,7 @@ not set. Please fix this.}
 \RequirePackage{parskip}
 
 \def\beforesectionskip{0pt}
-\def\aftersectionskip{-0.5\parskip}
+\def\aftersectionskip{0pt}%-0.5\parskip}
 
 \newcounter{colorCounter}
 \def\sectioncolor#1#2#3{%
