@@ -165,7 +165,7 @@ not set. Please fix this.}
     \node [anchor=north] at (title.south) {%
       \hspace{-1.1cm}\small%\center\noindent%
       \@contactemail \sep%
-      \@contactaddressone,\. \@contactaddresstwo \sep%
+      \@contactaddressone, \@contactaddresstwo \sep%
       \@contactphone%
     };
   \end{tikzpicture}
