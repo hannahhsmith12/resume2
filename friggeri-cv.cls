@@ -196,7 +196,7 @@ not set. Please fix this.}
 \RequirePackage{parskip}
 
 \def\beforesectionskip{0pt}
-\def\aftersectionskip{0pt}%-0.5\parskip}
+\def\aftersectionskip{0em}%-0.5\parskip}
 
 \newcounter{colorCounter}
 \def\sectioncolor#1#2#3{%
@@ -258,7 +258,7 @@ not set. Please fix this.}
     \hfill%
     {\footnotesize\addfontfeature{Color=gray} #2}\\%
     \vspace{-\baselineskip}\begin{itemize}
-    #3\end{itemize}\vspace{0.2em}%
+    #3\end{itemize}\vspace{0.9em}%
   }\\}
 \newcommand{\lineentry}[3]{%
   \parbox[t]{\textwidth}{%
