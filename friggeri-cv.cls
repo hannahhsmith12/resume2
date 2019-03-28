@@ -258,7 +258,7 @@ not set. Please fix this.}
     \hfill%
     {\footnotesize\addfontfeature{Color=gray} #2}\\%
     \vspace{-\baselineskip}\begin{itemize}
-    #3\end{itemize}\vspace{0.9em}%
+    #3\end{itemize}\vspace{0.2em}%
   }\\}
 \newcommand{\lineentry}[3]{%
   \parbox[t]{\textwidth}{%
